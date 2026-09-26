@@ -1,0 +1,12 @@
+name = "carson"
+compatibility_date = "2026-08-04"
+main = "workers/api.js"
+
+[assets]
+directory = "dist"
+binding = "ASSETS"
+
+[vars]
+ADMIN_USERNAME = "admin"
+ADMIN_PASSWORD = "admin123"
+JWT_SECRET = "carson-blog-preview-secret-2026"

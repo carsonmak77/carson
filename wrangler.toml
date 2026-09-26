@@ -1,0 +1,20 @@
+name = "carson-blog"
+compatibility_date = "2026-08-04"
+main = "workers/api.js"
+
+[assets]
+directory = "dist"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "carson-blog-db"
+database_id = "e63d8efe-6388-4fee-8072-df1e172f4c2f"
+
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "carson-blog-uploads"
+
+[vars]
+ADMIN_USERNAME = "CARSON"
+# ADMIN_PASSWORD 与 JWT_SECRET 建议用 wrangler secret 设置，不要提交真实密码。

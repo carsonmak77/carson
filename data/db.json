@@ -1,0 +1,236 @@
+{
+  "posts": [
+    {
+      "pinned": false,
+      "announcement": false,
+      "showOnHome": true,
+      "id": "1",
+      "title": "欢迎使用CARSON网站",
+      "summary": "一个简洁优雅的博客系统，灵感来源于微信的经典设计语言。",
+      "content": "<p>这是一个采用微信设计风格的博客系统。</p><h2>主要特性</h2><ul><li>简洁清新的界面设计</li><li>完整的后台管理系统</li><li>文章的增删改查</li><li>分类与标签管理</li><li>响应式布局，适配移动端</li></ul><p>微信风格的核心在于「克制」——用最少的视觉元素传达最清晰的信息。绿色主色调 #07C160 带来活力感，大面积留白让内容呼吸。</p><h2>使用方法</h2><p>1. 访问首页查看博客文章列表</p><p>2. 点击文章标题查看详情</p><p>3. 访问 /admin 进入后台管理</p><p>4. 默认管理员账号：admin / admin123</p><p>开始你的博客之旅吧！</p>",
+      "cover": "",
+      "author": "Admin",
+      "category": "公告",
+      "tags": [
+        "教程",
+        "公告"
+      ],
+      "createdAt": "2026-09-24T10:09:28.020Z",
+      "updatedAt": "2026-09-24T10:09:28.020Z",
+      "views": 130,
+      "published": true
+    },
+    {
+      "pinned": false,
+      "announcement": false,
+      "showOnHome": true,
+      "id": "2",
+      "title": "如何写出高质量的技术博客",
+      "summary": "分享技术写作的方法论，从选题到结构到表达，让你的文章更专业。",
+      "content": "<p>技术博客是开发者最好的名片。本文分享一些实用的写作技巧。</p><h2>选题策略</h2><p>好的选题是成功的一半。建议从以下角度切入：</p><ul><li>解决过的技术难题</li><li>新技术的实践总结</li><li>项目架构设计复盘</li><li>性能优化案例分析</li></ul><h2>结构设计</h2><p>一篇好的技术文章通常包含：问题背景、方案选型、实现细节、踩坑记录、总结展望。逻辑要清晰，让读者能够跟上你的思路。</p><h2>表达技巧</h2><p>多用图表和代码示例，少用大段文字。关键概念加粗强调，复杂流程配示意图。代码要可运行，附带注释说明。</p><p>坚持写作，量变终会引起质变。</p>",
+      "cover": "",
+      "author": "Admin",
+      "category": "技术",
+      "tags": [
+        "写作",
+        "技术"
+      ],
+      "createdAt": "2026-09-23T10:09:28.020Z",
+      "updatedAt": "2026-09-23T10:09:28.020Z",
+      "views": 56,
+      "published": true
+    },
+    {
+      "pinned": false,
+      "announcement": false,
+      "showOnHome": true,
+      "id": "3",
+      "title": "2024年前端开发趋势展望",
+      "summary": "从框架演进到工具链变革，梳理前端生态的最新发展方向。",
+      "content": "<p>前端领域瞬息万变，让我们一起看看当前的发展趋势。</p><h2>框架层面</h2><p>React、Vue、Angular 三足鼎立，但 Svelte 和 Solid 等编译时框架正在崛起。服务端组件（RSC）正在改变前端的开发范式。</p><h2>工具链</h2><p>Vite 已成为新一代构建工具的标准。Turbopack、Rspack 等 Rust/Go 编写的工具在性能上持续突破。</p><h2>AI 辅助开发</h2><p>AI 编程助手已从概念走向日常工具。代码生成、智能补全、自动化测试等场景正在被重新定义。</p><p>保持学习，拥抱变化，是前端开发者永恒的主题。</p>",
+      "cover": "",
+      "author": "Admin",
+      "category": "技术",
+      "tags": [
+        "前端",
+        "趋势"
+      ],
+      "createdAt": "2026-09-22T10:09:28.020Z",
+      "updatedAt": "2026-09-22T10:09:28.020Z",
+      "views": 89,
+      "published": true
+    },
+    {
+      "id": "1790260212822",
+      "title": "测试文章 - 系统验证",
+      "summary": "",
+      "content": "这是一篇用于系统验证的测试文章。文章内容将用于检查后台发布功能是否正常，以及前端是否能正确显示新发布的文章。<div><br></div><div data-trae-ref=\"e226\">## 测试内容</div><div><br></div><div data-trae-ref=\"e227\">本文包含以下内容：</div><div><br></div><div data-trae-ref=\"e228\">- **标题验证**：测试文章 - 系统验证</div><div data-trae-ref=\"e229\">- **分类验证**：技术</div><div data-trae-ref=\"e230\">- **标签验证**：测试</div><div data-trae-ref=\"e231\">- **内容验证**：以上段落</div><div><br></div><div data-trae-ref=\"e232\">## 测试结论</div><div><br></div><div data-trae-ref=\"e233\">文章发布功能运行正常，数据可以正确保存到数据库，并且可以在前端首页显示。</div><div><br></div><div>---</div><div><br></div><div data-trae-ref=\"e234\">**测试时间**：2026-09-24</div>",
+      "cover": "",
+      "author": "admin",
+      "category": "技术",
+      "tags": [
+        "测试"
+      ],
+      "createdAt": "2026-09-24T14:30:12.822Z",
+      "updatedAt": "2026-09-24T14:30:12.822Z",
+      "views": 0,
+      "published": true,
+      "pinned": false,
+      "announcement": false,
+      "showOnHome": false,
+      "reviewStatus": "approved"
+    }
+  ],
+  "categories": [
+    "公告",
+    "技术",
+    "生活",
+    "随笔"
+  ],
+  "tags": [
+    "教程",
+    "公告",
+    "写作",
+    "技术",
+    "前端",
+    "趋势",
+    "生活",
+    "随笔",
+    "测试"
+  ],
+  "friends": [
+    {
+      "status": "approved",
+      "visible": true,
+      "iconUrl": "",
+      "sortOrder": 2,
+      "createdAt": "2026-09-24T10:09:06.377Z",
+      "updatedAt": "2026-09-24T10:09:06.377Z",
+      "id": "friend-2",
+      "name": "ligen131",
+      "url": "https://ligen.life/",
+      "description": "Don't worry, be happy.",
+      "avatar": ""
+    },
+    {
+      "status": "approved",
+      "visible": true,
+      "iconUrl": "",
+      "sortOrder": 3,
+      "createdAt": "2026-09-24T10:09:06.377Z",
+      "updatedAt": "2026-09-24T10:09:06.377Z",
+      "id": "friend-3",
+      "name": "jyi2ya 的博客",
+      "url": "https://jyi2ya.github.io/",
+      "description": "Let me write C again and kill me.",
+      "avatar": ""
+    },
+    {
+      "status": "approved",
+      "visible": true,
+      "iconUrl": "",
+      "sortOrder": 4,
+      "createdAt": "2026-09-24T10:09:06.377Z",
+      "updatedAt": "2026-09-24T10:09:06.377Z",
+      "id": "friend-4",
+      "name": "Chales",
+      "url": "https://www.n2ptr.space/",
+      "description": "just a blog",
+      "avatar": ""
+    },
+    {
+      "status": "approved",
+      "visible": true,
+      "iconUrl": "",
+      "sortOrder": 5,
+      "createdAt": "2026-09-24T10:09:06.377Z",
+      "updatedAt": "2026-09-24T10:09:06.377Z",
+      "id": "friend-5",
+      "name": "笨蛋小破站",
+      "url": "https://blog.obdo.cc/",
+      "description": "May all the beauty be blessed.",
+      "avatar": ""
+    },
+    {
+      "status": "approved",
+      "visible": true,
+      "iconUrl": "",
+      "sortOrder": 1,
+      "createdAt": "2026-09-24T10:09:06.375Z",
+      "updatedAt": "2026-09-24T10:09:06.377Z",
+      "id": "friend-1",
+      "name": "天真",
+      "url": "https://bin.zmide.com/",
+      "description": "与君初识，宛如故人",
+      "avatar": ""
+    }
+  ],
+  "users": [],
+  "comments": [],
+  "likes": [],
+  "favorites": [],
+  "settings": {
+    "siteName": "CARSON",
+    "siteSubtitle": "记录生活，分享思考",
+    "description": "CARSON——记录生活，分享思考。",
+    "logo": "",
+    "footerText": "",
+    "navLinks": [
+      {
+        "name": "主页",
+        "url": "index.html",
+        "visible": true
+      },
+      {
+        "name": "文章",
+        "url": "articles.html",
+        "visible": true
+      },
+      {
+        "name": "朋友们",
+        "url": "friends.html",
+        "visible": true
+      },
+      {
+        "name": "关于",
+        "url": "about.html",
+        "visible": true
+      }
+    ],
+    "about": {
+      "kicker": "About",
+      "title": "关于CARSON",
+      "summary": "CARSON博客系统——记录生活，分享思考。",
+      "content": "<section class=\"about-card\"><h2>CARSON</h2><p>CARSON博客系统是一处记录生活与分享思考的平台。</p></section><section class=\"about-card\"><h2>联系方式</h2><p>邮箱：carson@family.com</p><p>微信：carson-family</p><p>地址：广东</p></section><section class=\"about-card\"><h2>赞助支持</h2><p>CARSON博客系统由维护者共同运营，欢迎赞助支持，您的支持将用于服务器运营。赞助码：CARSON2026</p></section>"
+    },
+    "commentSettings": {
+      "blockedKeywords": [],
+      "homepagePageSize": 5,
+      "postPageSize": 10
+    },
+    "contact": {
+      "email": "carson@family.com",
+      "wechat": "carson-family",
+      "qq": "",
+      "phone": "",
+      "address": "广东CARSON"
+    },
+    "sponsor": {
+      "description": "CARSON网站由家族成员共同维护，如果您觉得本站对您有帮助，欢迎赞助支持，您的支持将用于服务器运营。",
+      "wechatQr": "",
+      "alipayQr": "",
+      "thirdQr": "",
+      "code": "CARSON2026"
+    },
+    "maintenanceMode": false,
+    "maintenancePassword": "1234",
+    "maintenanceMessage": "网站正在维护,请输入访问密码",
+    "defaultCover": "",
+    "displayMode": "default",
+    "updatedAt": "2026-09-24T13:00:28.651Z"
+  },
+  "admin": {
+    "username": "admin",
+    "password": "$2a$10$/VmN/rm93nFUafKDqr5rdOl4O9SvosW7MdRay1Gj2lv8rDJGfNaTO"
+  }
+}
