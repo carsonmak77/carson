@@ -1,6 +1,6 @@
 {
   "name": "carson",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "description": "CARSON网站系统，含文章、友链、广告管理等功能，支持Cloudflare部署",
   "main": "server.js",
   "scripts": {

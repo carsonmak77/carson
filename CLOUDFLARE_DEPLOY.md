@@ -567,6 +567,34 @@ npx wrangler d1 execute carson-db --remote --command="UPDATE app_data SET data =
 
 ---
 
+## 版本升级说明
+
+### 升级到 v2.1.2
+
+v2.1.2 不涉及 D1 表结构变更，管理员资料存储于 `app_data` JSON 内的 `adminProfile` 字段，升级时无需执行数据库迁移。
+
+**升级步骤**：
+
+1. 拉取最新代码：
+```bash
+git pull origin main
+```
+
+2. 重新构建并部署：
+```bash
+npm run build:cf
+npx wrangler deploy
+```
+
+3. 升级完成后，管理员在个人中心选择预设头像即可正常工作（旧版本会报"用户不存在"）。
+
+**注意事项**：
+- 管理员的昵称和头像存储在 `adminProfile` 中，与普通用户的 `db.users` 表独立
+- 升级前已设置的管理员头像会丢失，需要重新选择
+- 预设头像数量从 150 个扩展到 225 个，不影响已保存的头像索引（旧索引仍指向相同的 emoji 头像）
+
+---
+
 ## 常见问题排查
 
 ### 构建失败：Worker name 不匹配
